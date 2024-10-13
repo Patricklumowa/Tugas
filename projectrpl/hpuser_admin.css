@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.log-out {
+    text-align: left;
+    position: relative;  
+}
+
+header .log-out a {
+    color: #fff;
+    margin-right: 10px;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  header .log-out a:hover {
+    background-color:#39B5E0;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  
+  header .log-out a {
+    text-decoration: none;
+    color: inherit;
+    flex-direction: column;
+    
+  }
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    margin: 20px;
+}
+
+.pdf-list {
+	width: 80%;
+}
+.card {
+	width: 18rem;
+}
+.category .list-group {
+	width: 200px;
+}
+.nd {
+	text-decoration: none;
+}
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#categories {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#categories h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#categories ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#categories li {
+    margin-bottom: 10px;
+}
+
+#categories a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#categories a:hover {
+    color: #0056b3;
+}
+
+#bookList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
